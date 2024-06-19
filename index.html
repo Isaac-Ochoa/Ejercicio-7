@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7 - Formuario</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <h1>Registro de datos</h1>
+    <div class="contenedor">
+    <form action="recibirDatos.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input name="nombre" type="text" id="nombre" placeholder="Nombre"> 
+    
+    <label for="celular">Celular: </label>
+    <input name="celular" type="text" id="celular" placeholder="Celular">     
+
+    <label for="correo">Correo:</label>
+    <input name="correo" type="text" id="correo" placeholder="Correo"> 
+
+    <button type="submit">Guardar datos </button>
+</form></div>
+</body>
+</html>
